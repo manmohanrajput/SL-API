@@ -1,0 +1,1813 @@
+{
+	"info": {
+		"_postman_id": "96331a7a-142d-4d97-bb83-57f1cf61f6cf",
+		"name": "API collectons",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "App_edu_delete_comment_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "comment_id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_delete_comment_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_delete_comment_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_edu_ques_action_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "post_id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "user_response",
+							"value": " 2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_ques_action_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_ques_action_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_edu_community_about_v0.js",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "community_id",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_community_about_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_community_about_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_edu_mark_spam_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "post_comment_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "post",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_mark_spam_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_mark_spam_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_edu_post_upvote_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "1324851",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "45b777354fdacf643bebeb507672bf4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "26812",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_post_upvote_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_post_upvote_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_get_payment_histroy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_hash",
+							"value": "ad",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "ad",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_get_payment_histroy",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_get_payment_histroy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_version_code_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_id",
+							"value": "10001",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "56b888a8cbfb41a98b40910e945bf85",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_version_code_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_version_code_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_view_user_profile_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "selected_user_id",
+							"value": "57",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_view_user_profile_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_view_user_profile_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_reset_user_sync_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_reset_user_sync_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_reset_user_sync_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_group_list_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "pref_community_ids",
+							"value": "6,7,9,10,36,64,65",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_group_list_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_group_list_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_edu_comments_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "4831",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "f9f61ceb8b77a7f77add78e8e5dc5552",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "21913",
+							"type": "text"
+						},
+						{
+							"key": "comment_limit",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_edu_comments_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_edu_comments_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_all_list_data_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "\"bank\"",
+							"type": "text"
+						},
+						{
+							"key": "subcategory",
+							"value": "\" \"",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "\"faq\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_all_list_data_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_all_list_data_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_success_payment_info",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "payment_id",
+							"value": "001",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "23",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_success_payment_info",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_success_payment_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get_app_config_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_hash",
+							"value": "\"2bef9b97a29db61dbea98f251bc8cd2b\"",
+							"type": "text"
+						},
+						{
+							"key": "version_code",
+							"value": "75",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/Get_app_config_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"Get_app_config_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_data_hash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "data_hash",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_data_hash_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_data_hash_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_mob_login_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "rajrai111_deleted1@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "100",
+							"type": "text"
+						},
+						{
+							"key": "hash",
+							"value": "e1f9a2d4d31c5defd8269d27f4d764e",
+							"type": "text"
+						},
+						{
+							"key": "pwd",
+							"value": "jannat",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_mob_login_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_mob_login_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "app_fetch_current_affairs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "6f2aa49f93b3ae590b1464eb4918747",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "\"CA_HIN\"",
+							"type": "text"
+						},
+						{
+							"key": "add_date",
+							"value": "4982",
+							"type": "text"
+						},
+						{
+							"key": "country_name",
+							"value": "\"India\"",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/app_fetch_current_affairs",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"app_fetch_current_affairs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APP_verify_reg_pin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_email",
+							"value": "sdas9696969@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1002",
+							"type": "text"
+						},
+						{
+							"key": "hash",
+							"value": "a10e87a52db81131f5623ccc2d0f8afe",
+							"type": "text"
+						},
+						{
+							"key": "is_secure",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/APP_verify_reg_pin",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"APP_verify_reg_pin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_inst_post_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "72475c87f984f0435e9e5000ded88ff",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "post_type",
+							"value": "notification",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_inst_post_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_inst_post_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_get_payment_detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_hash",
+							"value": "72475c87f984f0435e9e5000ded88ff",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_get_payment_detail",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_get_payment_detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_post_list_v1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "2bef9b97a29db61dbea98f251bc8cd2b",
+							"type": "text"
+						},
+						{
+							"key": "pref_community_id",
+							"value": "36",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "post_count",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "max_user_post_sync_id",
+							"value": "20000",
+							"type": "text"
+						},
+						{
+							"key": "limt ",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_post_list_v1",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_post_list_v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_test_list_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "2bef9b97a29db61dbea98f251bc8cd2b",
+							"type": "text"
+						},
+						{
+							"key": "test_count",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "max_user_test_sync_id",
+							"value": "20000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_test_list_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_test_list_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_reading_v1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "11681",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e07a10b74a0a803b33d887f108ec44a4",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "2bef9b97a29db61dbea98f251bc8cd2b",
+							"type": "text"
+						},
+						{
+							"key": "row_count",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "max_reading_sync_id",
+							"value": "20000",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_reading_v1",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_reading_v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch_flt_result",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "1379127",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "ca9ef277f8736944df2448285dc0f6f",
+							"type": "text"
+						},
+						{
+							"key": "test_id",
+							"value": "2670",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/Fetch_flt_result",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"Fetch_flt_result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_check_version_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "4831",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "f9f61ceb8b77a7f77add78e8e5dc5552",
+							"type": "text"
+						},
+						{
+							"key": "gcm_id",
+							"value": "%00",
+							"type": "text"
+						},
+						{
+							"key": "version_code",
+							"value": "85",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "72475c87f984f0435e9e5000ded88ff",
+							"type": "text"
+						},
+						{
+							"key": "country_name",
+							"value": "India",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_check_version_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_check_version_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_batch_name_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "906581",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "7b2d85e9e2e2c90ef11552d4aba824d",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:8080/App_fetch_batch_name_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "8080",
+					"path": [
+						"App_fetch_batch_name_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_check_email_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "hash",
+							"value": "72475c87f984f0435e9e5000ded88ff",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "manish@mycareerlift.com",
+							"type": "text"
+						},
+						{
+							"key": "pwd",
+							"value": "careerlift31",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:8080/App_check_email_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "8080",
+					"path": [
+						"App_check_email_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_result_submit_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "4831",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "f9f61ceb8b77a7f77add78e8e5dc5552",
+							"type": "text"
+						},
+						{
+							"key": "test_hash",
+							"value": "b5709f7c78bcfe1dff36698c83b4362",
+							"type": "text"
+						},
+						{
+							"key": "positive_mark",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "negative_mark",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "ques_string",
+							"value": "574278#3|574279#4|574281#2|574282#3|574284#1",
+							"type": "text"
+						},
+						{
+							"key": "rgcmid",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_result_submit_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_result_submit_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_flt_question_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "475457",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e74ee782ffbcd0fd4d367f57f6e1024",
+							"type": "text"
+						},
+						{
+							"key": "test_id",
+							"value": "2670",
+							"type": "text"
+						},
+						{
+							"key": "section_id",
+							"value": "1368",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/get_flt_question_list",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"get_flt_question_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_flt_section_list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "475457",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e74ee782ffbcd0fd4d367f57f6e1024",
+							"type": "text"
+						},
+						{
+							"key": "test_id",
+							"value": "2670",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/get_flt_section_list",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"get_flt_section_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_flt_list_v1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "4831",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "f9f61ceb8b77a7f77add78e8e5dc5552",
+							"type": "text"
+						},
+						{
+							"key": "sub_category",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "exam_id",
+							"value": "46",
+							"type": "text"
+						},
+						{
+							"key": "exam_id_2",
+							"value": "47",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/get_flt_list_v1",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"get_flt_list_v1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_student_config_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "app_hash",
+							"value": "72475c87f984f0435e9e5000ded88ff",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "e74ee782ffbcd0fd4d367f57f6e1024",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "475457",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_student_config_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_student_config_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_edu_add_post_comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "1324851",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "45b777354fdacf643bebeb507672bf4",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "user_first_name",
+							"value": "Raj",
+							"type": "text"
+						},
+						{
+							"key": "user_last_name",
+							"value": "Rai",
+							"type": "text"
+						},
+						{
+							"key": "user_image_url",
+							"value": "https://lh3.googleusercontent.com/a-/AOh14GhLGNiq752zgQ31yqe4901pM_tYRZhvtidtDPDG",
+							"type": "text"
+						},
+						{
+							"key": "user_type",
+							"value": "I am a Student",
+							"type": "text"
+						},
+						{
+							"key": "post_id",
+							"value": "26789",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "Please explain how it is solved?",
+							"type": "text"
+						},
+						{
+							"key": "comment_image",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_edu_add_post_comment",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_edu_add_post_comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_register_user_v0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "uFname",
+							"value": "Raj",
+							"type": "text"
+						},
+						{
+							"key": "uLname",
+							"value": "Rai",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1043",
+							"type": "text"
+						},
+						{
+							"key": "mobNo",
+							"value": "9074520892",
+							"type": "text"
+						},
+						{
+							"key": "uEmail",
+							"value": "del29_raj@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "uEduQual",
+							"value": "BE",
+							"type": "text"
+						},
+						{
+							"key": "uCity",
+							"value": "Indore",
+							"type": "text"
+						},
+						{
+							"key": "uState",
+							"value": "Madhya Pradesh",
+							"type": "text"
+						},
+						{
+							"key": "uCountry",
+							"value": "India",
+							"type": "text"
+						},
+						{
+							"key": "source",
+							"value": "mob",
+							"type": "text"
+						},
+						{
+							"key": "gcm_id",
+							"value": "8748",
+							"type": "text"
+						},
+						{
+							"key": "version_code",
+							"value": "75",
+							"type": "text"
+						},
+						{
+							"key": "uImage",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "uType",
+							"value": "I am a Student",
+							"type": "text"
+						},
+						{
+							"key": "stream",
+							"value": "IT",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_register_user_v0",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_register_user_v0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "App_fetch_sz_data_v1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_id",
+							"value": "1214041",
+							"type": "text"
+						},
+						{
+							"key": "user_hash",
+							"value": "a03b3fbcaf447ebd178871c4d1881a0",
+							"type": "text"
+						},
+						{
+							"key": "app_hash",
+							"value": "2b079e015697820ef29c286fe0b5338",
+							"type": "text"
+						},
+						{
+							"key": "app_id",
+							"value": "1889",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://35.200.149.58:5000/App_fetch_sz_data_v1",
+					"protocol": "http",
+					"host": [
+						"35",
+						"200",
+						"149",
+						"58"
+					],
+					"port": "5000",
+					"path": [
+						"App_fetch_sz_data_v1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "http://35.244.8.93:6000"
+		}
+	]
+}
